@@ -1,4 +1,4 @@
-# 네이버 블로그 이미지 다운로더
+# N사 블로그 이미지 다운로더
 
 이 폴더는 아래 두 스크립트를 최소 실행 단위로 분리한 배포본입니다.
 
@@ -7,7 +7,7 @@
 
 두 스크립트 모두 `links.txt`에 적힌 네이버 블로그 글 URL들을 읽어 이미지 파일을 저장합니다.
 
-## 포함 파일
+## 파일
 
 - `naver_blog_image_downloader.py`
   - Selenium으로 브라우저를 띄운 뒤, 이미지 뷰어를 직접 열고 네트워크 로그를 분석해서 가장 큰 이미지 후보를 저장합니다.
@@ -19,6 +19,7 @@
   - 파이썬 패키지 의존성 목록입니다.
 - `chrome-win64/`
   - `naver_blog_image_downloader.py`가 기본 설정으로 사용하는 로컬 크롬 실행 파일 폴더입니다.
+  - https://googlechromelabs.github.io/chrome-for-testing/ 에서 chrome-win64.zip을 다운받아 압축을 풀어두시면 됩니다.
 
 ## 필요한 파이썬 패키지
 
